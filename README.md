@@ -9,4 +9,4 @@ If you want to pass file path by parameters, run
 >node server.js originFile compareToFile targetId
 
 Considerations:
-It is also comparing with element type, classes and href values.
+It is just comparing: element type, class and href attributes.
