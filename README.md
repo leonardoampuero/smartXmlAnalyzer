@@ -1,11 +1,8 @@
 Smart XML Analyzer
 
-To execute the predefined scripts run
+To execute the predefined scripts run (X= 1, 2, 3, 4)
 
->npm run start-test1
->npm run start-test2
->npm run start-test3
->npm run start-test4
+>npm run start-testX
 
 If you want to pass file path by parameters, run
 
