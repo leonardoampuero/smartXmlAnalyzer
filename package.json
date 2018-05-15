@@ -1,0 +1,14 @@
+{
+  "name": "SmartXmlAnalyzer",
+  "version": "0.0.1",
+  "main": "server.js",
+  "scripts":{
+    "start-test1": "node server.js ./files/sample-0-origin.html ./files/sample-1-evil-gemini.html make-everything-ok-button",
+    "start-test2": "node server.js ./files/sample-0-origin.html ./files/sample-2-container-and-clone.html make-everything-ok-button",
+    "start-test3": "node server.js ./files/sample-0-origin.html ./files/sample-3-the-escape.html make-everything-ok-button",
+    "start-test4": "node server.js ./files/sample-0-origin.html ./files/sample-4-the-mash.html make-everything-ok-button"
+  },
+  "dependencies": {
+    "jsdom":"^11.10.0"
+  }
+}
